@@ -1,0 +1,116 @@
+/* Обнуляющий стиль */
+@import url(null.css);
+/* &display=swap Для подключения шрифта */
+
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Lobster&family=Playfair+Display:ital,wght@0,400;0,900;1,700&family=Supermercado+One&display=swap");
+
+body {
+	background-color: bisque;
+}
+.wrapper {
+	min-height: 100%;
+}
+
+.main-title {
+	color: blueviolet;
+	text-shadow: 2px 2px rgb(0, 0, 0);
+	font-family: "Supermercado One", cursive;
+	font-size: 90px;
+	text-align: center;
+}
+.main-content {
+	margin: 20px auto;
+	width: 1000px;
+}
+.text1,
+.text2,
+.text3 {
+	color: rgb(14, 0, 141);
+	font-size: 20px;
+	font-family: "Playfair Display", serif;
+	font-weight: 700;
+	font-style: italic;
+	display: inline-block;
+	margin: 0 0 20px 0;
+}
+.en {
+	text-transform: uppercase;
+	text-shadow: 2px 2px black;
+	color: crimson;
+	font-size: 30px;
+	font-family: "Supermercado One", cursive;
+}
+
+.block-list {
+	max-width: 1000px;
+	margin: 20px 0 20px 250px;
+}
+.title {
+	font-family: "Lobster", cursive;
+	text-decoration: underline;
+	text-shadow: 2px 2px black;
+	color: rgb(0, 207, 0);
+	font-size: 50px;
+	text-align: center;
+}
+.list-title {
+	font-family: "Comforter", cursive;
+	font-size: 20px;
+}
+.block-time {
+	margin: 0 0 0 1010px;
+}
+.time-title {
+	color: blue;
+	text-shadow: 2px 2px black;
+	font-family: "Lobster", cursive;
+	font-size: 50px;
+	text-align: center;
+}
+.list-time {
+	font-family: "Supermercado One", cursive;
+	color: brown;
+	letter-spacing: 5px;
+}
+img {
+	margin: 20px 0 20px 250px;
+	width: 900px;
+}
+.block-story {
+	margin: 0 auto;
+	width: 1000px;
+	height: 500px;
+	overflow: auto;
+}
+
+.title-story {
+	text-transform: uppercase;
+	text-shadow: 2px 2px black;
+	color: rgb(163, 0, 114);
+	font-family: "Playfair Display", serif;
+	font-size: 60px;
+	text-align: center;
+}
+.text-story,
+.text-story2,
+.text-story3,
+.text-story4,
+.text-story5,
+.text-story6 {
+	font-size: 30px;
+	font-family: "Playfair Display", serif;
+	font-style: italic;
+	font-weight: 900;
+
+	margin: 0 0 20px 0;
+}
+.footer {
+	margin: 20px 0;
+}
+.title-end {
+	font-family: "Comforter", cursive;
+	text-shadow: 2px 2px black;
+	color: blueviolet;
+	font-size: 80px;
+	text-align: center;
+}
